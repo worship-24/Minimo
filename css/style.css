@@ -1,0 +1,223 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+/*==============header start=============*/
+header {}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*===Logo start here===*/
+.logo {
+	width: 12%;
+	float: left;
+	margin-top: 34px;
+}
+.logo h1 {
+	font-family: 'Inconsolata', monospace;
+	font-weight:400;
+	color: #000000;
+	letter-spacing:2px;
+	text-transform: uppercase;
+}
+/*===Logo end here===*/
+/*===Menu start here===*/
+.menu {
+	width: 65%;
+	float: right;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 42px 55px;
+	color: #626262;
+	transition: .5s;
+}
+.menu ul li:last-child a {
+	padding-right: 0;
+}
+.menu ul li a:hover {
+	color: black;
+}
+
+/*=============header end=============*/
+/*============banner start============*/
+.banner {}
+.banner-image {}
+.banner-image img {
+	width: 100%;
+}
+/*============banner end============*/
+/*=======article start==========*/
+.banner {
+	padding: 50px 0;
+}
+.wrapper2{
+	width:80%;
+	margin-left:100px;
+}
+.perfect-content {
+
+}
+.perfect-content h1 {
+	font-weight: 400;
+	font-size: 30px;
+	color: #626262;
+	margin-top: 16px;
+	margin-bottom: 24px;
+}
+.second {
+	font-size: 14px;
+	line-height: 1.7;
+	word-spacing: 1px;
+	letter-spacing: .7px;
+	margin-bottom: 35px;
+}
+.first {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	color: #b4ad9e;
+}
+/*========article end==============*/
+/*==========blog start============*/
+.blog {
+	padding: 60px 0;
+}
+.single {
+	width: 42%;
+	float: left;
+	padding-bottom: 50px;
+	padding-right:30px;
+}
+.single:nth-child(even){
+	margin-left: 8%;
+}
+.single img{
+	width: 107%;
+	margin-bottom: 20px;
+}
+.single h1{
+	font-size: 26px;
+	font-weight: 400;
+	margin: 17px 0;
+}
+/*===========blog end================*/
+/*=========newsletter start==========*/
+.newsletter {
+	padding: 50px 0;
+	background-color: #f0f0f0;
+}
+.button {
+	width: 60%;
+	margin: 0 auto;
+}
+.signup {
+	text-align: center;
+}
+.signup h1 {
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+	margin-bottom: 50px;
+}
+.form1 {
+	width: 350px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	position: relative;
+}
+.form1 input{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #cccccc;
+	width: 300px;
+	font-size: 18px;
+	padding: 10px 10px;
+	outline: none;
+}
+.form1 button{
+	border:none;
+	background: transparent;
+	position: absolute;
+	top: 14px;
+    right: 10px;
+}
+
+/*=========newsletter end==========*/
+/*==========blog2 start============*/
+.blog2 {
+	padding: 80px 0;
+}
+/*==========blog2 end============*/
+/*button start*/
+.button {
+	padding-bottom:120px ;
+}
+.Send-b {
+	text-align: center;
+}
+.Send-b button {
+	padding: 15px 30px;
+	font-size: 20px;
+	border: none;
+	color: #626262;
+	border: 1px solid #626262;
+	background: transparent;
+	transition: .5s;
+}
+
+/*=========button end============*/
+/*==========footer start=========*/
+.footer {
+	padding: 25px;
+	background-color: #F0F0F0;
+}
+.footer-menu {}
+.footer-menu ul {}
+.footer-menu ul li {
+	list-style: none;
+	float: left;
+}
+.footer-menu ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 10px 15px;
+	color: #626262;
+	font-size:14px;
+}
+.footer-menu ul li a:hover {
+	color: #626262;
+
+}
+.icons {}
+.icons ul {}
+.icons ul li {
+	list-style: none;
+	float: right;
+}
+.icons ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 12px 10px;
+	color: #626262;
+	font-size:14px;
+	font-weight: bold;
+}
+/*=============footer end==========*/
